@@ -38,7 +38,7 @@ mesh.rotation.x+=.001*deltaTime
 
 
 //Render
-    renderer.render(scene, camera)
+    renderer.render(scene, cam)
 
     window.requestAnimationFrame(tick)
 }
